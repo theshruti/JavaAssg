@@ -1,0 +1,11 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        int c=0;
+        int[] arr= {1, 2,3,4,5};
+        for(int I=0;I<arr.length;I++){
+            if(arr[I]%2==0){
+                c++;
+            }
+        }System.out.println(c);
+    }
+}
